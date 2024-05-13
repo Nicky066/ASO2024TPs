@@ -13,7 +13,7 @@ sinhilos.py:
 10 - 5.18s
 
 conhilos.py:
-aa
+
 
 1 - 4.02
 2 - 4.02
@@ -36,3 +36,6 @@ Respuesta Pto_1C:
 (sin descomentar) el codigo se ejecuta bien, rapido, con un promedio de 0,016Segs.
 (descomentado) el codigo se siguio ejecutando bien, solo que ahora tarda mas tiempo, un promedio de 2.45segs.	
 se entiende que esto ocurrio debido a que el planificador de tareas tuvo algun problema o asigno mal o a destiempo los recursos de procesamiento a los hilos del programa, por eso el race condition fue peor en una situacion que en la otra
+
+
+Ejercicio 2:
