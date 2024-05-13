@@ -40,5 +40,8 @@ se entiende que esto ocurrio debido a que el planificador de tareas tuvo algun p
 
 Ejercicio 2:
 
+
+
+### inciso B)
 ![ARQSO_RTATP2P2INCB](https://github.com/Nicky066/ASO2024TPs/assets/166407614/b5c8e74e-b44c-46bd-a259-925c0de23ff0)
 
