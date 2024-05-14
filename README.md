@@ -52,6 +52,4 @@ se entiende que esto ocurrio debido a que el planificador de tareas tuvo algun p
  
  
  ### Inciso B)
- 
- <a href="./TP3_ANSW/race_condition/ARQSO_RTATP2P2INCB.png">
-
+![Captura de pantalla 2024-05-13 201320](https://github.com/Nicky066/ASO2024TPs/assets/166407614/ab7175d9-f7c0-4c60-bcbc-81486b38be42) 
