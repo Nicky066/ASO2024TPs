@@ -46,7 +46,7 @@ se entiende que esto ocurrio debido a que el planificador de tareas tuvo algun p
 
  ### Inciso A)
 
- <a src = "./ASO2024TPs/TP3_ANSW/race_condition/con_race">
+![Codigo](github.com/Nicky066/ASO2024TPs/TP3_ANSW/race_condition/con_race_condition.c)
  
  
  
