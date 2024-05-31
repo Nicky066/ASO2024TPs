@@ -4,30 +4,27 @@
 #define NUMBER_OF_THREADS 2
 #define CANTIDAD_INICIAL_HAMBURGUESAS 20
 int cantidad_restante_hamburguesas = CANTIDAD_INICIAL_HAMBURGUESAS;
-int turno = 0;
 
 
 void *comer_hamburguesa(void *tid)
 {
 	while (1 == 1)
 	{ 
-		while(turno!=(int)tid);
+		
     // INICIO DE LA ZONA CRÍTICA
 		if (cantidad_restante_hamburguesas > 0)
 		{
 			printf("Hola! soy el hilo(comensal) %d , me voy a comer una hamburguesa ! ya que todavia queda/n %d \n", (int) tid, cantidad_restante_hamburguesas);
 			cantidad_restante_hamburguesas--; // me como una hamburguesa
-			turno = (turno + 1)% NUMBER_OF_THREADS;
 		}
 		else
 		{
 			printf("SE TERMINARON LAS HAMBURGUESAS :( \n");
 
 			pthread_exit(NULL); // forzar terminacion del hilo
-			
 		}
     // SALIDA DE LA ZONA CRÍTICA   
-	turno = (turno + 1)% NUMBER_OF_THREADS;
+
 	}
 }
 
